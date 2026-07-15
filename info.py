@@ -57,7 +57,7 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/UD_MOVIES_WORLD')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/UD_MOVIES_WORLD')
 
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002806509698") # add multiple channels here, separated by single space
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-100')
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002263333739')
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002647690158'))
@@ -68,14 +68,14 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/+GMS9WDQxabRjMTll")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+GMS9WDQxabRjMTll")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+GMS9WDQxabRjMTll")
 
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API = environ.get("SHORTENER_API", "af2492502a6364145ea8c019324d4c14ff5d9c52")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortxlinks.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "779152134ba67c63e73a11bf5624b9df2a8dcbe7")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "easysky.in")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "3a87f3223e9cdf259128873c651860aa92d1e9cb")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "vipshort.in")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "200"))
