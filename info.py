@@ -51,22 +51,22 @@ MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type Tru
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432")) 
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/UD_MOVIES_WORLD')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/UD_MOVIES_WORLD')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/UD_MOVIES_WORLD')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/UD_MOVIES_WORLD')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+wiERZq-x3KBmOGU9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+wiERZq-x3KBmOGU9')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/OdiaMoviesbot')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+wiERZq-x3KBmOGU9')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002806509698") # add multiple channels here, separated by single space
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002263333739')
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002180054439") # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002737451602')
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002647690158'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002647690158'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/+GMS9WDQxabRjMTll")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+GMS9WDQxabRjMTll")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+GMS9WDQxabRjMTll")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+DQg8ISdFoVgzYTY9")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+DQg8ISdFoVgzYTY9")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+DQg8ISdFoVgzYTY9")
 
 SHORTENER_API = environ.get("SHORTENER_API", "af2492502a6364145ea8c019324d4c14ff5d9c52")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortxlinks.com")
